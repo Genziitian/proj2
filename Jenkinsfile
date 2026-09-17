@@ -4,7 +4,7 @@ pipeline {
         stage ('Checkout') {
             steps {
                 // Replace with your actual GitHub username and repository name
-                git branch: 'main', url: 'https://github.com<YOUR-USERNAME>/<YOUR-REPO-NAME>.git'
+                git branch: 'main', url: 'https://github.com/Genziitian/proj2'
             }
         }
         stage ('Generate Report') {
